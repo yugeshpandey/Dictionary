@@ -9,5 +9,10 @@ public class InputHelper {
 	public String getString() {
 		return scanner.next();
 	}
+	
+	public char getChar() {
+		scanner.nextLine();
+		return scanner.nextLine().charAt(0);
+	}
 
 }

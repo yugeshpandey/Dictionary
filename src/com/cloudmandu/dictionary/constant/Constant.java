@@ -19,6 +19,10 @@ public class Constant {
 	public static final String INPUT_DEFINITION_PROMPT = "Please type in definition";
 	public static final String DELETE_WORD_PROMPT = "Please type the word to be deleted";
 	public static final String WORD_NOT_FOUND_PROMPT = "Word not found in database";
+	public static final String MAIN_PROMPT = "Please enter word to see meaning or press X to edit dictionary";
+	
+	public static final String WORD_DELETED_MESSAGE = "Word Deleted";
+	public static final String WORD_ADDED_MESSAGE = "Word Added";
 	
 
 }

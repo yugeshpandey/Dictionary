@@ -5,12 +5,16 @@ import java.util.Map;
 import com.cloudmandu.dictionary.wordlist.WordList;
 
 public class Search implements SearchIf{
+	private WordList wordList;
 	
-	Map<String, String> wordList = WordList.getWordList();
-
+	public Search(WordList wordList) {
+		this.wordList = wordList;
+	}
+	
 	@Override
 	public String searchWordByName(String name) {
-		String response =  wordList.get(name);
+		Map<String, String> wordMap = wordList.getWordList();
+		String response =  wordMap.get(name);
 		
 		return response;
 	}

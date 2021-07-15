@@ -7,7 +7,7 @@ import com.cloudmandu.dictionary.constant.Constant;
 
 public class WordList {
 	
-	private static Map<String, String> wordList = new HashMap<>();
+	private Map<String, String> wordList = new HashMap<>();
 	
 	public void loadWordList() {
 		wordList.put(Constant.PRIVATE, Constant.PRIVATE_DEFINITION);
@@ -18,7 +18,7 @@ public class WordList {
 		
 	}
 	
-	public static Map<String, String> getWordList() {
+	public Map<String, String> getWordList() {
 		return wordList;
 	}
 	

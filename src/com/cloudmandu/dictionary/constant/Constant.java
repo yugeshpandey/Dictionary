@@ -14,6 +14,11 @@ public class Constant {
 	public static final String ENCAPSULATION_DEFINITION = "Encapsulation in Java is a mechanism of wrapping the data (variables) and code acting on the data (methods) together as a single unit. ";
 	
 	public static final String WELCOME_MESSAGE = "Welcome to Dictionary, please enter word to see definition";
+	public static final String OPTIONS_PROMPT = "Press A to add your own word and D to delete word";
+	public static final String INPUT_WORD_PROMPT = "Please type in word name";
+	public static final String INPUT_DEFINITION_PROMPT = "Please type in definition";
+	public static final String DELETE_WORD_PROMPT = "Please type the word to be deleted";
+	public static final String WORD_NOT_FOUND_PROMPT = "Word not found in database";
 	
 
 }
